@@ -1,0 +1,71 @@
+.container {
+    width: 100%;
+}
+.navbar {
+    padding: 20px;
+    box-shadow: 10px 1px 1px gray;
+    display: flex; /*부모태그에 flex 적용*/
+    width:100%;
+    list-style:none; /*점 없애기 */
+    padding-left:0px;
+    justify-content: space-between;
+}
+.navbar a {
+    text-decoration: none; 
+    text-align: center;
+}
+a:link { color: black; text-decoration: none;}
+a:visited { color: black; text-decoration: none;}
+a:hover { color: black; text-decoration: none;}
+.navLogo {
+    color: #F2BE24;
+    margin-left: 15px;
+    font-size: 45px;
+    font-family: 'Black Han Sans', sans-serif;
+    font-family: 'Noto Sans Mono', monospace;
+    
+}
+.top-menu {
+    margin-top: 22px;
+}
+.nav_postRegister {
+    margin-right: 20px;
+    font-size: 20px;
+    border: 0;
+    outline: 0;
+    background-color: white;
+    
+}
+.navbar_login { 
+    margin-right: 20px;
+    font-size: 20px;
+    border: 0;
+    outline: 0;
+    background-color: white;
+}
+.banner_content {
+    margin-top: 60px;
+    padding: 30px;
+    text-align: center;
+    font-size: 30px;
+}
+.freelancer-kategorie{
+    margin: auto; /*div 가운데 정렬*/
+    margin-top: 40px;
+    padding: 20px;
+    display: flex;
+    width: 80%;
+    height:40px;
+    text-align: center; 
+    justify-content: space-between;
+    font-size: 20px;
+}
+.board-list{
+    padding: 20px;
+    display: flex;
+    font-size: 30px;
+    width: 40%;
+    justify-content: space-between;
+}
+@media screen and (max-width: 1200px) {
+}
